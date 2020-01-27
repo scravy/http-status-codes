@@ -249,4 +249,77 @@ public enum StatusCode {
         Pantheon,
         ResumableRequests,
     }
+
+    public static final StatusCode CONTINUE = _100;
+    public static final StatusCode SWITCHING_PROTOCOLS = _101;
+    public static final StatusCode PROCESSING = _102;
+    public static final StatusCode EARLY_HINTS = _103;
+
+    public static final StatusCode OK = _200;
+    public static final StatusCode CREATED = _201;
+    public static final StatusCode ACCEPTED = _202;
+    public static final StatusCode NON_AUTHORITATIVE_INFORMATION = _203;
+    public static final StatusCode NO_CONTENT = _204;
+    public static final StatusCode RESET_CONTENT = _205;
+    public static final StatusCode PARTIAL_CONTENT = _206;
+    public static final StatusCode MULTI_STATUS = _207;
+    public static final StatusCode ALREADY_REPORTED = _208;
+
+    public static final StatusCode THIS_IS_FINE = _218a;
+    public static final StatusCode IM_USED = _226;
+
+    public static final StatusCode MULTIPLE_CHOICES = _300;
+    public static final StatusCode MOVED_PERMANENTLY = _301;
+    public static final StatusCode FOUND = _302;
+    public static final StatusCode MOVED_TEMPORARILY = _302;
+    public static final StatusCode SEE_OTHER = _303;
+    public static final StatusCode NOT_MODIFIED = _304;
+    public static final StatusCode USE_PROXY = _305;
+    public static final StatusCode SWITCH_PROXY = _306;
+    public static final StatusCode TEMPORARY_REDIRECT = _307;
+    public static final StatusCode PERMANENT_REDIRECT = _308;
+
+    public static final StatusCode BAD_REQUEST = _400;
+    public static final StatusCode UNAUTHORIZED = _401;
+    public static final StatusCode NOT_AUTHORIZED = _401;
+    public static final StatusCode PAYMENT_REQUIRED = _402;
+    public static final StatusCode FORBIDDEN = _403;
+    public static final StatusCode NOT_FOUND = _404;
+    public static final StatusCode METHOD_NOT_ALLOWED = _405;
+    public static final StatusCode NOT_ACCEPTABLE = _406;
+    public static final StatusCode PROXY_AUTHENTICATION_REQUIRED = _407;
+    public static final StatusCode REQUEST_TIMEOUT = _408;
+    public static final StatusCode CONFLICT = _409;
+    public static final StatusCode GONE = _410;
+    public static final StatusCode LENGTH_REQUIRED = _411;
+    public static final StatusCode PRECONDITION_FAILED = _412;
+    public static final StatusCode PAYLOAD_TOO_LARGE = _413;
+    public static final StatusCode URI_TOO_LONG = _414;
+    public static final StatusCode UNSUPPORTED_MEDIA_TYPE = _415;
+    public static final StatusCode RANGE_NOT_SATISFIED = _416;
+    public static final StatusCode EXPECTATION_FAILED = _417;
+    public static final StatusCode I_AM_A_TEAPOT = _418;
+    public static final StatusCode MISDIRECT_REQUEST = _421;
+    public static final StatusCode UNPROCESSABLE_ENTITY = _422;
+    public static final StatusCode LOCKED = _423;
+    public static final StatusCode FAILED_DEPENDENCY = _424;
+    public static final StatusCode TOO_EARLY = _425;
+    public static final StatusCode UPGRADE_REQUIRED = _426;
+    public static final StatusCode PRECONDITION_REQUIRED = _428;
+    public static final StatusCode TOO_MANY_REQUESTS = _429;
+    public static final StatusCode REQUEST_HEADER_FIELDS_TOO_LARGE = _431;
+    public static final StatusCode UNAVAILABLE_FOR_LEGAL_REASONS = _451;
+
+    public static final StatusCode INTERNAL_SERVER_ERROR = _500;
+    public static final StatusCode NOT_IMPLEMENTED = _501;
+    public static final StatusCode BAD_GATEWAY = _502;
+    public static final StatusCode SERVICE_UNAVAILABLE = _503;
+    public static final StatusCode GATEWAY_TIMEOUT = _504;
+    public static final StatusCode HTTP_VERSION_NOT_SUPPORTED = _505;
+    public static final StatusCode VARIANT_ALSO_NEGOTIATES = _506;
+    public static final StatusCode INSUFFICIENT_STORAGE = _507;
+    public static final StatusCode LOOP_DETECTED = _508;
+    public static final StatusCode NOT_EXTENDED = _510;
+    public static final StatusCode NETWORK_AUTHENTICATION_REQUIRED = _511;
+
 }
